@@ -6,7 +6,3 @@ FROM tv_shows
      LEFT JOIN tv_genres
      	  ON tv_genres.id = tv_show_genres.genre_id
 ORDER BY title, name;
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
