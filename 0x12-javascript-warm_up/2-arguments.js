@@ -1,5 +1,5 @@
 #!/usr/bin/node
-printArg = (argument) => {
+printArg = (countArg = process.argv.length) => {
 	if (let countArg === 0){
 		console.log('No argument');
 	}else if(countArg === 1){
