@@ -1,10 +1,9 @@
 #!/usr/bin/node
-printArg = (countArg = process.argv.length) => {
-	if (let countArg === 0){
+const count = process.argv.length;
+	if (let count === 0){
 		console.log('No argument');
-	}else if(countArg === 1){
+	}else if(count === 1){
 		console.log('Argument found');
 	}else{
 		console.log('Arguments found');
 	};
-};
